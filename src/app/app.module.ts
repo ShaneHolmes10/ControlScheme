@@ -11,9 +11,11 @@ import { YawControlComponent } from './yaw-control/yaw-control.component';
 import { FunctionControlComponent } from './function-control/function-control.component';
 import { InputControlPanelComponent } from './input-control-panel/input-control-panel.component';
 import { OutputPanelComponent } from './output-panel/output-panel.component';
+import { InputCommunicationServiceService } from './input-communication-service.service';
 import { SpeedGuageOutputComponent } from './speed-guage-output/speed-guage-output.component';
 import { AltitudeGuageOutputComponent } from './altitude-guage-output/altitude-guage-output.component';
 import { OrientationGuageOutputComponent } from './orientation-guage-output/orientation-guage-output.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +36,7 @@ import { OrientationGuageOutputComponent } from './orientation-guage-output/orie
     BrowserAnimationsModule,
     MatButtonModule 
   ],
-  providers: [],
+  providers: [InputCommunicationServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

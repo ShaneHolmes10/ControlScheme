@@ -1,0 +1,34 @@
+
+.container{
+    width: 100px;
+    height: 470px;
+    overflow: hidden;
+    position: relative;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+.barcontainer{
+    background-color: #181818;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 50px;
+    height: 470px;
+    float: left;
+    
+}
+    
+.bar{
+    background-color: #9BC9C7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    animation: grow 1.5s ease-out forwards;
+    transform-origin: bottom;
+    
+}

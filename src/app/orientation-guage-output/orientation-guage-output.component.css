@@ -1,0 +1,48 @@
+
+.container {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+  
+.text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+}
+
+
+.ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #72AAD3;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  
+}
+
+
+.small-ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #7BACD1;
+  animation: rotation 1s linear infinite;
+  transform-origin: center 125px;
+  margin-left: 90px;
+  margin-top: -25px;
+  position: absolute;
+  transition: transform 0.2s ease-out;
+
+}

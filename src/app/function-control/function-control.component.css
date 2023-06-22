@@ -1,0 +1,18 @@
+.comContainer {
+    background-color: rgb(99, 199, 95);
+    height: 100%;
+}
+
+.header {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Arial Black", "Courier New", monospace;
+}
+
+.vertical-buttons {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  

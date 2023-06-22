@@ -1,0 +1,43 @@
+.comContainer {
+    background-color: rgb(255, 210, 127);
+}
+
+.header {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Arial Black", "Courier New", monospace;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    gap: 10px 10px;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+  
+.speed-guage {
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    margin: 10px;
+    
+}
+  
+.altitude-guage {
+    grid-area: 1 / 2 / 3 / 3;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.direction-guage {
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+    margin: 10px;
+
+}
+
+  
